@@ -1,0 +1,56 @@
+button{
+    color: red;
+    background-color: green;
+}
+
+button:hover{
+    color: aliceblue;
+    background-color: black;
+}
+
+a:active{
+    color: red;
+}
+
+a:visited{
+    background-color: black;
+}
+
+
+/* 
+box model in css: 
+according to the box model concept every element on the page is a rectangular box and many  have width, height, padding, borders and margin 
+*/
+
+#a{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: 3px solid black;
+    border-radius: 8px;
+    text-align: center;
+    padding-left: 20px;
+    margin-left: 50px;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+#b{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border: 3px solid black;
+    border-radius: 8px;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+/* em --> relative to parent size */
+/* rem --> relative to root  */
+
+/* vw--> 1/100*width of viewport */
+/* vh--> 1/100*height of viewport */
